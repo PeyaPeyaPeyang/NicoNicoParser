@@ -21,7 +21,6 @@
 + 2.実行
 ```
 $ python ms2ime.py
-
 ```
 ### NicoNicoExtractor
 
