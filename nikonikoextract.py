@@ -6,6 +6,8 @@ import glob
 
 files = glob.glob("*.csv")
 year = input("Enter Year >")
+if os.path.exists('complete') != False:
+    os.mkdir('complete')
 target = 1  #1なら大百科、3が掲示板
 for f in files:
     fName = f[:-4]
