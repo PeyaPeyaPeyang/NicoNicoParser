@@ -21,6 +21,22 @@ $ python mecab.py
 + 3.待つ  
 CPUの性能で大幅に変わります。(メモリは1GBもいりません)
 + 4.2に戻る
+
+### EntityReferencesFixer
+
+HTMLの特殊文字を削除します。
++ MecabSplitを実行した後に、同じフォルダで実行すると、期待される動作を致します。
+
++ 1.書き換え
+```
+$ python entityreferencesfixer.py
+```
++ 2.年を入力  
+大百科とかのパースで、年ごとにファイルが違うことがあるため
++ 3.待つ  
+CPUの性能で大幅に変わります。(メモリは1GBもいりません)
++ 4.2に戻る
+
 ### NicoNicoIME2Mecab
 
 ニコニコ大百科IME辞書\(通称ニコニコIME\)を、Mecabが読める状態までパースします。  
